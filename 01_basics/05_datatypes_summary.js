@@ -33,14 +33,44 @@ const myFunction = function(){
 
 // ~~~~~~~~~ Lets find out TYPEOF of every data type ~~~~~~~~~~
 
-console.log(typeof num);
-console.log(typeof myString);
-console.log(typeof isLoggendIn);
-console.log(typeof userState);
-console.log(typeof bigNum);
-console.log(typeof id);
+// console.log(typeof num);
+// console.log(typeof myString);
+// console.log(typeof isLoggendIn);
+// console.log(typeof userState);
+// console.log(typeof bigNum);
+// console.log(typeof id);
 
 
-console.log(typeof myArray);
-console.log(typeof myObject);
-console.log(typeof myFunction); // output : function (but its called object-function)
+// console.log(typeof myArray);
+// console.log(typeof myObject);
+// console.log(typeof myFunction); // output : function (but its called object-function)
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// -------------------------------------------------------
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// STACK (primitive) & HEAP (non-primitive)
+
+let myName = "jatin"
+let yourName = myName
+
+yourName = "Rohit"
+
+console.log(myName);
+console.log(yourName);
+
+
+// ----- REFERENCE TYPE --------------------------------
+
+let myObj = {
+    name: "Jkay",
+    age: 21
+}
+
+let newObj = myObj
+
+newObj.name = "Rohit"
+
+console.log(myObj);
+console.log(newObj);
