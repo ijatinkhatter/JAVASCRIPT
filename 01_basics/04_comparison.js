@@ -16,9 +16,10 @@
 
 
 // ----------- COMPARE NULL TO 0 ----------------
-// console.log(null > 0)
-// console.log(null == 0)
-// console.log(null >= 0)
+console.log(null > 0)
+console.log(null == 0)
+console.log(null >= 0)
+console.log(0 == null);
 
 // The reason is that an equality operator == and comparisons operator < > <= >= are work differently
 
@@ -28,7 +29,7 @@
 
 
 // --------------- STRICT CHECKER (== ===) -------------
-console.log("2" == 2);
-console.log("2" === 2);
+// console.log("2" == 2);
+// console.log("2" === 2);
 // BECAUSE === checks value + data type 
 // WHILE == only checks value 

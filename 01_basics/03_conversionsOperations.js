@@ -11,7 +11,6 @@
 // console.log(newScore);
 
 
-
 // -------- NOT A NUMBER ("33abc") -------
 
 // let score = "33abc"
@@ -47,10 +46,14 @@
 // ************ OPERATIONS *******************
 
 let num1 = ("1" + 2)
-// console.log(num1);
-// console.log(typeof num1);
+console.log(num1);
+console.log(typeof num1);
 // if we add a number with a string then it will produce a string 
 
 console.log(1 + 2 + "1");
 console.log("1" + 2 + 1);
-console.log(1 + 2 + "1" + 3);
+
+let num2 = (1 + 2 + "1" + 3)
+console.log(num2);
+console.log(typeof num2);
+
